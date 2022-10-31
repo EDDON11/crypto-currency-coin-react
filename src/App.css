@@ -1,0 +1,63 @@
+@import url(//db.onlinewebfonts.com/c/557602b15207c6d67bbdda171a4157dd?family=Yahoo+Sans+Bold);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Yahoo Sans Bold";
+  color: #232a31;
+  background: 	 #F5F5F5
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+
+.coin-heading {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+
+  margin-bottom: 10px;
+}
+
+.coin-heading p {
+  color: #6c757d;
+}
+
+.coin-name {
+  padding-left: 70px;
+}
+
+.coin-search {
+  width: 100%;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.coin-text {
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(#abbaab, #ffffff);
+  opacity: 0.3;
+  color: black;
+  border: 1px solid #7d8c9e;
+}
+
+.coin-input::placeholder {
+  color: black;
+}
